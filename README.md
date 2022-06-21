@@ -1,8 +1,8 @@
 # 🌟 Hoshi Theme
 
 ![Build](https://github.com/lucianoratamero/hoshi-theme/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
+[![Version](https://img.shields.io/jetbrains/plugin/v/19396-hoshi-theme.svg)](https://plugins.jetbrains.com/plugin/19396-hoshi-theme)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/19396-hoshi-theme.svg)](https://plugins.jetbrains.com/plugin/19396-hoshi-theme)
 <!-- Plugin description -->
 
 Dark theme for JetBrains IDEs. :]
