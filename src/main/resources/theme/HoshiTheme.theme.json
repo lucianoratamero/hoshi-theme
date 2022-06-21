@@ -27,6 +27,8 @@
   },
   "ui": {
     "ToolWindow.Button.selectedBackground": "brownS4",
+    "Plugins.lightSelectionBackground": "orange",
+    "List.background": "black",
     "*": {
       "focusColor": "brownS2",
       "hoverBackground": "brownS4",

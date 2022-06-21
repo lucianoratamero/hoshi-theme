@@ -1,8 +1,8 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
 	<id>com.github.lucianoratamero.hoshitheme</id>
-	<name>🌟 Hoshi Theme</name>
-	<version>1.0.0</version>
+	<name>Hoshi Theme</name>
+	<version>1.0.1</version>
 	<vendor email="luciano+hoshi-theme@ratamero.com" url="https://www.ratamero.com">Luciano Ratamero</vendor>
 
 	<depends>com.intellij.modules.platform</depends>
@@ -23,7 +23,10 @@
 	<!-- Short summary of new features and bugfixes in the latest plugin version.
 		 Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
 	<change-notes><![CDATA[
-    Initial release of the theme.
+	<ul>
+	<li>1.0.1 - Added compatibility with newer IDE versions</li>
+	<l1>1.0.0 - Initial release of the theme.</li>
+	</ul>
   ]]></change-notes>
 
 	<!-- Product and plugin compatibility requirements.
