@@ -5,8 +5,6 @@
 	<version>1.0.1</version>
 	<vendor email="luciano+hoshi-theme@ratamero.com" url="https://www.ratamero.com">Luciano Ratamero</vendor>
 
-	<depends>com.intellij.modules.platform</depends>
-
 	<idea-version since-build="212" until-build="222.*"/>
 
 	<!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
