@@ -1,18 +1,36 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.lucianoratamero.hoshitheme</id>
-    <name>hoshi-theme</name>
-    <vendor>lucianoratamero</vendor>
+	<id>com.github.lucianoratamero.hoshitheme</id>
+	<name>🌟 Hoshi Theme</name>
+	<version>1.0.0</version>
+	<vendor email="luciano+hoshi-theme@ratamero.com" url="https://www.ratamero.com">Luciano Ratamero</vendor>
 
-    <depends>com.intellij.modules.platform</depends>
+	<depends>com.intellij.modules.platform</depends>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.lucianoratamero.hoshitheme.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.lucianoratamero.hoshitheme.services.MyProjectService"/>
-    </extensions>
+	<idea-version since-build="212" until-build="222.*"/>
 
-    <applicationListeners>
-        <listener class="com.github.lucianoratamero.hoshitheme.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
+	<!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+		 Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+		 Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+	<description><![CDATA[
+<h1 id="-hoshi-theme">🌟 Hoshi Theme</h1>
+<p>Dark theme for JetBrains IDEs</p>
+<h2 id="-license">🔏 License</h2>
+<p><strong>The</strong> <a href="https://choosealicense.com/licenses/apache-2.0/"><strong>Apache 2.0 License</strong></a></p>
+<p>Based on <a href="https://github.com/yedhrab/DarkCode-Theme-Jetbrains">DarkCode Theme Jetbrains</a>, by <a href="https://github.com/yedhrab">Yedrab</a>, and <a href="https://github.com/samdark/intellij-visual-studio-code-dark-plus">Visual Studio Code Dark Plus</a>, by <a href="https://github.com/samdark">Alexander Makarov</a>.</p>
+  ]]></description>
+
+	<!-- Short summary of new features and bugfixes in the latest plugin version.
+		 Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
+	<change-notes><![CDATA[
+    Initial release of the theme.
+  ]]></change-notes>
+
+	<!-- Product and plugin compatibility requirements.
+		 Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+	<depends>com.intellij.modules.platform</depends>
+
+	<extensions defaultExtensionNs="com.intellij">
+		<themeProvider id="Hoshi-Theme" path="/theme/HoshiTheme.theme.json"/>
+	</extensions>
 </idea-plugin>

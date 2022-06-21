@@ -1,0 +1,89 @@
+{
+  "name": "HoshiTheme",
+  "dark": true,
+  "author": "Luciano Ratamero",
+  "editorScheme": "theme/Hoshi.xml",
+  "colors": {
+    "black": "#131617",
+    "blackS2": "#13161788",
+    "blackD1": "#07090a",
+    "white": "#eeeeee",
+    "whiteD1": "#ececec",
+    "whiteD2": "#C0C0C0",
+    "whiteD2S2": "#C0C0C0aa",
+    "whiteD3": "#bababa",
+    "brown": "#1a283d",
+    "brownS2": "#18323dff",
+    "brownS3": "#183446ff",
+    "brownS4": "#152c3dff",
+    "brownD1": "#171e28",
+    "yellow": "#00bbff",
+    "yellowS4": "#00f7ffff",
+    "yellowS6": "#00f7ffff",
+    "yellowD1": "#12bbbb",
+    "yellowD1S3": "#12bbb5ff",
+    "orange": "#084b5b",
+    "orangeS2": "#0d95adff"
+  },
+  "ui": {
+    "ToolWindow.Button.selectedBackground": "brownS4",
+    "*": {
+      "focusColor": "brownS2",
+      "hoverBackground": "brownS4",
+      "selectionBackground": "brown",
+      "selectionInactiveBackground": "brownS3",
+      "Menu.borderColor": "brown",
+      "background": "black",
+      "textBackground": "black",
+      "borderColor": "blackD1",
+      "foreground": "whiteD2",
+      "infoForeground": "yellowD1",
+      "disabledBackground": "blackD1",
+      "yellowSelectBgInactive": "blackS2",
+      "selectionForeground": "white",
+      "inactiveBackground": "black",
+      "disabledForeground": "whiteD2S2",
+      "disabledText": "basicForeS1",
+      "inactiveForeground": "whiteD3",
+      "acceleratorForeground": "#E6E6E6",
+      "acceleratorSelectionForeground": "#E6E6E6",
+      "errorForeground": "#FA3232",
+      "disabledBorderColor": "whiteD2S2",
+      "focusedBorderColor": "yellowS6",
+      "hoverBorderColor": "yellowS6",
+      "pressedBorderColor": "yellowS6",
+      "separatorColor": "brown",
+      "lineSeparatorColor": "#6A6173"
+    },
+    "ActionButton.pressedBackground": "black",
+    "Button": {
+      "background": "black",
+      "startBorderColor": "orange",
+      "endBorderColor": "orange",
+      "foreground": "white",
+      "disabledBorderColor": "whiteD2S2",
+      "disabledText": "whiteD2S2",
+      "arc": "4px",
+      "startBackground": "blackS2",
+      "endBackground": "black",
+      "default": {
+        "startBackground": "yellowD1",
+        "endBackground": "orangeS2",
+        "foreground": "blackD1",
+        "startBorderColor": "blackD1",
+        "endBorderColor": "blackD1",
+        "focusedBorderColor": "orange"
+      }
+    },
+    "EditorTabs": {
+      "underlineColor": "yellow",
+      "underlineHeight": 1,
+      "underlinedTabBackground": "brownD1",
+      "underlinedTabForeground": "white"
+    },
+    "Borders": {
+      "color": "blackD1",
+      "ContrastBorderColor": "blackD1"
+    }
+  }
+}
