@@ -21,14 +21,30 @@
 	<!-- Short summary of new features and bugfixes in the latest plugin version.
 		 Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
 	<change-notes><![CDATA[
-	<ul>
-	<li>1.0.2
-	 <ul>
-	 	<li>- Added colors for tooltips, notifications, console bgs, and documentation bgs;</li>
-	 	<li>- Improved documentation</li>
-	<li>1.0.1 - Added compatibility with newer IDE versions</li>
-	<l1>1.0.0 - Initial release of the theme.</li>
-	</ul>
+<h2 id="-1-0-2-">[1.0.2]</h2>
+<h3 id="added">Added</h3>
+<ul>
+<li>colors for:<ul>
+<li>tooltips;</li>
+<li>notifications;</li>
+<li>console bg;</li>
+<li>documentation bgs;</li>
+<li>checkboxes;</li>
+<li>radio buttons.</li>
+</ul>
+</li>
+<li>better documentation.</li>
+</ul>
+<h2 id="-1-0-1-">[1.0.1]</h2>
+<h3 id="added">Added</h3>
+<ul>
+<li>compatibility with newer IDE versions</li>
+</ul>
+<h2 id="-1-0-0-">[1.0.0]</h2>
+<h3 id="added">Added</h3>
+<ul>
+<li>Initial scaffold created from <a href="https://github.com/JetBrains/intellij-platform-plugin-template">IntelliJ Platform Plugin Template</a></li>
+</ul>
   ]]></change-notes>
 
 	<!-- Product and plugin compatibility requirements.
