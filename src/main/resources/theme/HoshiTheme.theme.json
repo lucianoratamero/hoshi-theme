@@ -88,6 +88,25 @@
     "Borders": {
       "color": "blackD1",
       "ContrastBorderColor": "blackD1"
+    },
+    "RadioButton": {
+      "background": "black",
+      "foreground": "royalblue",
+      "disabledText": "whiteD2S2"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Checkbox.Border.Default.Dark": "#00bbff",
+      "Checkbox.Border.Disabled.Dark": "#3a3c3e",
+      "Checkbox.Border.Selected.Dark": "#00bbff",
+      "Checkbox.Focus.Wide.Dark": "#07090a",
+      "Checkbox.Focus.Thin.Default.Dark": "#00bbff",
+      "Checkbox.Focus.Thin.Selected.Dark": "#00bbff",
+      "Checkbox.Foreground.Selected.Dark": "#00bbff",
+      "Checkbox.Foreground.Disabled.Dark": "#C0C0C0aa",
+      "Checkbox.Background.Default.Dark": "#131617",
+      "Checkbox.Background.Disabled.Dark": "#3a3c3e"
     }
   }
 }
