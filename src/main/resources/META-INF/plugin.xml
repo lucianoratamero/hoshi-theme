@@ -2,7 +2,7 @@
 <idea-plugin>
 	<id>com.github.lucianoratamero.hoshitheme</id>
 	<name>Hoshi Theme</name>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<vendor email="luciano+hoshi-theme@ratamero.com" url="https://www.ratamero.com">Luciano Ratamero</vendor>
 
 	<idea-version since-build="212" until-build="222.*"/>
@@ -22,6 +22,10 @@
 		 Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
 	<change-notes><![CDATA[
 	<ul>
+	<li>1.0.2
+	 <ul>
+	 	<li>- Added colors for tooltips, notifications, console bgs, and documentation bgs;</li>
+	 	<li>- Improved documentation</li>
 	<li>1.0.1 - Added compatibility with newer IDE versions</li>
 	<l1>1.0.0 - Initial release of the theme.</li>
 	</ul>

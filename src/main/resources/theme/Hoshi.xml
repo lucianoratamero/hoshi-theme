@@ -9,10 +9,12 @@
     <colors>
         <option name="CARET_COLOR" value="adaeac" />
         <option name="CARET_ROW_COLOR" value="1a1d23" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="131617" />
         <option name="GUTTER_BACKGROUND" value="131617" />
         <option name="INDENT_GUIDE" value="3b3b3b" />
         <option name="RIGHT_MARGIN_COLOR" value="3b3b3b" />
         <option name="SELECTION_BACKGROUND" value="1b3754" />
+        <option name="DOCUMENTATION_COLOR" value="171e28" />
         <option name="LINE_NUMBERS_COLOR" value="848484" />
         <option name="VISUAL_INDENT_GUIDE" value="3b3b3b" />
 
