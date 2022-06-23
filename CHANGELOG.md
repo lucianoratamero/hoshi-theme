@@ -3,6 +3,10 @@
 # hoshi-theme Changelog
 ## [Unreleased]
 
+## [1.0.3]
+### Added
+- light mode (experimental)
+
 ## [1.0.2]
 ### Added
 - colors for:

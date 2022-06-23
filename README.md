@@ -7,9 +7,10 @@
 
 Dark theme for JetBrains IDEs. :]
 
-## Screenshot
+## Screenshots
 
-![Open window with the Hoshi theme applies](https://github.com/lucianoratamero/hoshi-theme/blob/main/assets/img.png?raw=true)
+![Open window with the Hoshi theme applied](https://github.com/lucianoratamero/hoshi-theme/blob/main/assets/img.png?raw=true)
+![Open window with the Hoshi theme light applied](https://github.com/lucianoratamero/hoshi-theme/blob/main/assets/img-light.png?raw=true)
 
 ## Installation
 
